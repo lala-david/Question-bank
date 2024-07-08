@@ -33,5 +33,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Server is running at http://203.234.55.134:${port}/`);
+    console.log(`Server is running at http://:${port}/`);
 });
